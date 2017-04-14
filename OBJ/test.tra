@@ -1,0 +1,36 @@
+*** Creating Trace Output File '..\OBJ\test.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\obj\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\obj\test.o"'
+### List of Objects: adding '"..\obj\pid.o"'
+### List of Objects: adding '"..\obj\delay.o"'
+### List of Objects: adding '"..\obj\sys.o"'
+### List of Objects: adding '"..\obj\usart.o"'
+### List of Objects: adding '"..\obj\led.o"'
+### List of Objects: adding '"..\obj\key.o"'
+### List of Objects: adding '"..\obj\exti.o"'
+### List of Objects: adding '"..\obj\timer.o"'
+### List of Objects: adding '"..\obj\ili93xx.o"'
+### List of Objects: adding '"..\obj\myiic.o"'
+### List of Objects: adding '"..\obj\24cxx.o"'
+### List of Objects: adding '"..\obj\touch.o"'
+### List of Objects: adding '"..\obj\ov7670.o"'
+### List of Objects: adding '"..\obj\sccb.o"'
+### List of Objects: adding '"..\obj\cont.o"'
+### List of Objects: adding '"..\obj\motor.o"'
+### ADS-LD Command completed:
+--device DARMSTM "..\obj\startup_stm32f10x_hd.o" "..\obj\test.o" "..\obj\pid.o" "..\obj\delay.o" "..\obj\sys.o" "..\obj\usart.o" "..\obj\led.o" "..\obj\key.o" "..\obj\exti.o" "..\obj\timer.o" "..\obj\ili93xx.o" "..\obj\myiic.o" "..\obj\24cxx.o" "..\obj\touch.o" "..\obj\ov7670.o" "..\obj\sccb.o" "..\obj\cont.o" "..\obj\motor.o" --library_type=microlib --strict --scatter "..\OBJ\test.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\OBJ\test.map" -o "..\OBJ\test.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\OBJ\test.axf'
+### ADS-LD Command File: '..\OBJ\test.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\OBJ\test.lnp', Handle=0x000006A8
+### Writing '.lnp' file
+### ADS-LD Command file '..\OBJ\test.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

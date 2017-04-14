@@ -1,0 +1,13 @@
+..\OBJ\motor.o: ..\HARDWARE\MOTOR\motor.c
+..\OBJ\motor.o: ..\HARDWARE\MOTOR\motor.h
+..\OBJ\motor.o: ..\SYSTEM\sys\sys.h
+..\OBJ\motor.o: D:\MDK3\ARM\INC\ST\STM32F10x\stm32f10x_map.h
+..\OBJ\motor.o: D:\MDK3\ARM\INC\ST\STM32F10x\stm32f10x_conf.h
+..\OBJ\motor.o: D:\MDK3\ARM\INC\ST\STM32F10x\stm32f10x_type.h
+..\OBJ\motor.o: D:\MDK3\ARM\INC\ST\STM32F10x\cortexm3_macro.h
+..\OBJ\motor.o: D:\MDK3\ARM\INC\ST\STM32F10x\stm32f10x_nvic.h
+..\OBJ\motor.o: ..\SYSTEM\usart\usart.h
+..\OBJ\motor.o: D:\MDK3\ARM\RV31\INC\stdio.h
+..\OBJ\motor.o: ..\SYSTEM\delay\delay.h
+..\OBJ\motor.o: ..\HARDWARE\CONT\cont.h
+..\OBJ\motor.o: ..\HARDWARE\TIMER\timer.h
