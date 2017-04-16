@@ -396,7 +396,7 @@ int main(void)
 			Motor_Num = rec[0];
 			Motor_Dir = rec[1];
 			Motor_Step = rec[2]+(rec[3]<<8);
-			
+//			Motor_Step = rec[2];
 			if(Motor_Num==0x00)
 			{
 				LCD_ShowString(60,100,200,16,16,"Motor:Horizonal");
